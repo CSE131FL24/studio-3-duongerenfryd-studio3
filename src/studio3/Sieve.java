@@ -15,7 +15,8 @@ public class Sieve {
 		for (int i = 2; i<= sieve.length; i++) {
 			for (int j = i*2; j<= sieve.length; j+=i) {
 			sieve[j] = false;
-		} }
+		} 
+			}
 	 for (int i = 2; i<=sieve.length; i++) {
 			if (sieve[i]=true) {
 				System.out.println(i);
